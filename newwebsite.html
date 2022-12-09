@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="icon" href="/car.jfif">
+ 
+   <style>
+    body{
+        /* background-image: url(/car.jfif); */
+        background-image: url(/rr.jpg);
+        /* width:1000px; */
+        height: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    div{
+        /* border: 2px solid rgb(147, 44, 13); */
+        margin: 10px;
+    }
+    #left{
+        display: inline-block;
+        width: 90px;
+        /* border: 2px solid green; */
+        color: orangered;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        height: 60px;
+    }
+    #Mid{
+        display: block;
+        margin: auto;
+       /* border: 2px solid red; */
+       width: 380px;
+        
+    }
+    #right{
+        display: inline-block;
+        width: 150px;
+        /* border: 2px solid green; */
+        color: red;
+        position: absolute;
+        top: 9px;
+        right: 50px;
+        /* float: right; */
+        
+       
+        /* height: 150px; */
+    }
+    li{
+        /* float: left; */
+        display: inline-block;
+       
+         
+        /* text-decoration: none; */
+    }
+    li a{
+        display:inline-block;
+        text-decoration: none;
+        padding: 0px 5px;
+        color: rgb(138, 95, 95);
+    }
+    li a:hover, li a.active{
+        color: aqua;
+        text-decoration: underline;
+
+    }
+    #left img{
+        width: 60px;
+        margin: 0px;
+        padding: 0px 20px;
+        /* height: 30px; */
+    }
+    .naveen{
+        /* top: 10px; */
+        padding: 0px 12px;
+        text-align: center;
+        line-height: 0px;
+        /* width: 19px; */
+        font-size: 19px;
+    }
+    .button{
+        margin: 0px 5px;
+        display:inline block;
+    padding:0px 10px;
+    background-color: white;
+    border-color: white;
+    cursor: pointer;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .button:hover{
+        color: aqua;
+        
+    }
+    .content{
+        display: block;
+        color: purple;
+        border: 2px solid red;
+        border-radius: 10px;
+        margin: 113px 29px;
+    padding: 0px 12px;
+    width: 23%;
+    text-align: center;
+
+    }
+    .search{
+        border-radius: 6px;
+        text-align:center;
+        margin: ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        width: 80%;
+    }
+
+    
+   </style>
+</head>
+<body>
+    <div class="head" id="left"> <img src="/car.jfif" alt="">
+    <div class="naveen">Naveen</div></div>
+    <div class="head" id="Mid">
+        <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul></div>
+    <div class="head" id="right">
+        <button class="button">Login</button>
+        <button class="button">Signup</button>
+    </div>
+    <div class="content">
+       <h1> Boostup Your Career</h1>
+       <form action="">
+        <div><input class="search"type="text"placeholder="search"></div>
+        <div><input class="search"type="text"placeholder="search"></div>
+        <div><input class="search"type="text"placeholder="search"></div>
+        <div><input class="search"type="text"placeholder="search"></div>
+        <div><button class="button">Submit</button></div>
+       </form>
+    </div>
+</body>
+</html>
