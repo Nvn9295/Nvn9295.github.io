@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Tutorial</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="">
+    <style>
+        /* element selector */
+        p
+        {
+            border:2px solid black;
+        }
+        /* id selector */
+      #nvn{
+        color: red;
+      }
+      /* class selector */
+       .nav{
+           background-color: green; 
+        }
+       #nv {
+            color:pink;background-color:black;
+        }
+        /* grouping Selector */
+        footer,span {
+background-color: blue;color: bisque; 
+        }
+        span{
+            background-color: red;
+        }
+      
+    </style>
+</head>
+<body>
+   <p id="nvn">I am Naveen</p> 
+   <p class="nav">My Roll No </p>
+   <p id="nv" class="nav">I Follow My own Rules</p>
+   <footer> I am Naveen</footer>
+   <span>I like Movies</span>
+
+   <br><br><br>
+   <!-- Id Select has unique -->
+   id="nav" #nav 
+   <!-- class Selector not a unique -->
+   class="rav"  .rav
+   <!-- Element selector -->
+   <p>I am Naveen</p>  p { backgroune-color:red;}
+   <!-- Group selector -->
+   Footer,Span    foooter,span{ color:red;}
+</body>
+</html>

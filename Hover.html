@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        .naveen{
+            background-color: rgb(217, 103, 103);
+            border-radius: 20px;
+        }
+        .naveen li{
+            float: left;
+            list-style-type: none;
+            padding: 20px; 
+            cursor: pointer;
+        }
+        .naveen li:hover{
+            color: aqua;
+        }
+        .naveen ul{
+            overflow: auto;
+        }
+        .nav{
+            padding:18px 20px ;
+            float: right;
+        
+        }
+        .nav input{
+            border-radius: 10px;
+            /* color: rgb(221, 198, 198); */
+        }
+        .naveen button{
+                
+background-color: rgb(217, 103, 103);
+margin: 10px; padding:1px 1px;
+border-color: brown;
+border:black
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="naveen">
+            <ul>
+             <button><li >Home</li></button>
+                <button><li>Insert</li></button>
+                <button><li>Profile</li>
+                <button><li>About</li></button>
+                <button><li>Contact us</li></button>
+               <div class="nav">
+                    <input type="text" placeholder="search" >
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+</html>
